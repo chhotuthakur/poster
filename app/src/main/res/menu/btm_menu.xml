@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/btm_post"
+        android:icon="@drawable/baseline_format_list_numbered_24"
+        android:title="Posts"/>
+    <item
+        android:id="@+id/btm_add"
+        android:icon="@drawable/baseline_post_add_24"
+        android:title="Create new Post"/>
+
+</menu>

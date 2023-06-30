@@ -14,12 +14,14 @@
         android:id="@+id/email_layout"
         style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
         android:layout_above="@id/pass_layout"
-        app:startIconDrawable="@drawable/baseline_email_24">
+        app:startIconDrawable="@drawable/baseline_email_24"
+        app:startIconTint="#FFFC0008">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="Email Address" />
+            android:hint="Email Address"
+            android:id="@+id/edt"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -34,17 +36,19 @@
         android:layout_marginTop="20dp"
         app:startIconDrawable="@drawable/baseline_key_24"
         style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
-        android:layout_marginBottom="20dp">
+        android:layout_marginBottom="20dp"
+        app:startIconTint="#FFFC0008">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:hint="Password"
-            android:maxLines="1" />
+            android:maxLines="1"
+            android:id="@+id/pdt"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/loginbtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Login"
@@ -52,7 +56,8 @@
         tools:layout_editor_absoluteY="425dp"
         android:layout_below="@id/pass_layout"
         android:layout_marginStart="30dp"
-        android:layout_marginEnd="30dp"/>
+        android:layout_marginEnd="30dp"
+        android:backgroundTint="#FFFC0008"/>
 
     <TextView
         android:id="@+id/textView"
@@ -63,5 +68,6 @@
         android:layout_above="@id/email_layout"
         android:layout_marginBottom="25dp"
         android:layout_centerHorizontal="true"
-        android:textSize="29sp"/>
+        android:textSize="29sp"
+        android:textColor="#FC0008"/>
 </RelativeLayout>

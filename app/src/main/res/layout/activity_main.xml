@@ -9,6 +9,16 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/container"/>
+        android:id="@+id/container"
+        android:layout_above="@id/btmnav"/>
 
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/btmnav"
+        app:menu="@menu/btm_menu"
+        android:layout_margin="10dp"
+        app:elevation="15dp"
+        tools:ignore="VisualLintBottomNav" />
 </RelativeLayout>

@@ -58,21 +58,6 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <Button
-                android:id="@+id/select_img"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Select Images"
-                android:layout_marginStart="@dimen/margin_edt"
-                android:layout_marginEnd="@dimen/margin_edt"
-                android:backgroundTint="#FFFC0008" />
-
-            <LinearLayout
-                android:id="@+id/imageContainer"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal" />
-
-            <Button
                 android:id="@+id/apb"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -80,6 +65,7 @@
                 android:layout_marginStart="@dimen/margin_edt"
                 android:layout_marginEnd="@dimen/margin_edt"
                 android:backgroundTint="#FFFC0008" />
+
 
         </LinearLayout>
     </ScrollView>
